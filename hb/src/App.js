@@ -1,26 +1,73 @@
-import React from 'react';
+import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { Link, NavLink } from 'react-router-dom'
+import {
+  CarouselProvider,
+  Slider,
+  Slide,
+  ButtonBack,
+  ButtonNext,
+  ButtonFirst,
+  ButtonLast,
+  DotGroup
+} from 'pure-react-carousel';
+import 'pure-react-carousel/dist/react-carousel.es.css';
+import image1 from './images/img1.jpeg'
+import image2 from './images/img2.jpeg'
+import image3 from './images/img3.jpeg'
+import image4 from './images/img4.jpeg'
+import image5 from './images/img5.jpeg'
+import image6 from './images/img6.jpeg'
+import image7 from './images/img7.jpeg'
+import image8 from './images/img8.jpeg'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+
+class App extends Component {
+  constructor() {
+    super()
+
+    this.state = {
+
+    };
+  }
+
+  render() {
+
+    return (
+      <div className="App">
+
+        <nav>
+          <NavLink className="home_button" exact to='/'>HB</NavLink>
+          <NavLink className="about_button" to='/about'>About</NavLink>
+          <NavLink className="shop_button" to='/shop'>Shop</NavLink>
+          <NavLink className="support_button" to='/support'>Support</NavLink>
+        </nav>
+
+        <CarouselProvider
+          naturalSlideHeight={55}
+          naturalSlideWidth={100}
+          totalSlides={8}>
+          <Slider>
+            <Slide index={0}><img src={image1} /></Slide>
+            <Slide index={1}><img src={image2} /></Slide>
+            <Slide index={2}><img src={image3} /></Slide>
+            <Slide index={3}><img src={image4} /></Slide>
+            <Slide index={4}><img src={image5} /></Slide>
+            <Slide index={5}><img src={image6} /></Slide>
+            <Slide index={6}><img src={image7} /></Slide>
+            <Slide index={7}><img src={image8} /></Slide>
+          </Slider>
+          <DotGroup />
+          <ButtonFirst>First</ButtonFirst>
+          <ButtonBack>Back</ButtonBack>
+          <ButtonNext>Next</ButtonNext>
+          <ButtonLast>Last</ButtonLast>
+        </CarouselProvider>
+      </div>
+    )
+  };
 }
 
 export default App;
