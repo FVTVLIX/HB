@@ -1,0 +1,23 @@
+/* nav {
+  display: flex;
+  justify-content: space-around;
+
+} */
+
+.logo {
+  margin: auto;
+  width: 200px;
+}
+
+
+
+
+.nav_bar {
+  background-color: white;
+  /* display: flex; */
+  font-family: 'Do Hyeon', sans-serif;
+  font-size: 20px;
+  /* justify-content: space-around; */
+  letter-spacing:1px;
+  text-transform: uppercase;
+}

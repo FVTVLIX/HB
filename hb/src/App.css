@@ -7,3 +7,10 @@
   background-color: rgb(31, 41, 44);
   color: rgb(221, 229, 230);
 }
+
+.slider_image {
+  background-size: cover;
+  /* border: 15px white solid; */
+  height: 120%;
+  max-width: 90%;
+}
