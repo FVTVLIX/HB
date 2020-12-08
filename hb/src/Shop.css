@@ -1,0 +1,28 @@
+.navbutton {
+  border: 1px solid white;
+  background-color: rgb(31, 41, 44);
+  color: white;
+  font-family: 'DM Serif Display';
+  font-size: 1vw;
+  letter-spacing: 1.5px;
+  margin-bottom: 20px;
+  margin-left: 5px;
+  padding: 10px 20px;
+}
+
+.navbutton2 {
+  border: 1px solid white;
+  background-color: rgb(31, 41, 44);
+  color: white;
+  font-family: 'DM Serif Display';
+  font-size: 1vw;
+  letter-spacing: 1.5px;
+  margin-bottom: 20px;
+  margin-left: 50px;
+  padding: 10px 20px;
+}
+
+.slider {
+  margin-left: 50px;
+  margin-bottom: 10px;
+}

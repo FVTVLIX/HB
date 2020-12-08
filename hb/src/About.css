@@ -1,0 +1,39 @@
+p {
+  font-family: 'Raleway';
+  margin-top: 30px;
+}
+
+
+.abouttitle {
+  font-family: 'Le Jeune Deck';
+  font-size: 6vw;
+  margin: 50px auto;
+  text-align: center;
+
+}
+
+.aboutquote {
+  font-family: 'Playfair Display';
+  font-size: 1.5vw;
+  font-style: italic;
+  font-weight: bold;
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+.description {
+  /* text-align: center; */
+  margin-left: auto;
+  margin-right: auto;
+  width: 40vw;
+  height: 45vw;
+
+
+}
+
+.storeimage {
+  display: block;
+  height: 50vw;
+  margin: auto;
+  width: 100vw;
+}

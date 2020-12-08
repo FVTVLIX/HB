@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
 import './Nav.css'
-import { Link, NavLink } from 'react-router-dom'
+import { Link, NavLink, Switch, Route } from 'react-router-dom'
 import logo from './images/HB Logo.png'
+import Shop from './Shop'
 
 
 export default class Nav extends Component {
@@ -9,7 +10,7 @@ export default class Nav extends Component {
     return (
       <div className="nav_bar">
 
-        <NavLink exact to='/'><img className="logo" src={logo} alt="logo" /></NavLink>
+        <NavLink exact to='/home'><img className="logo" src={logo} alt="logo" /></NavLink>
         {/* <NavLink className="home_button" exact to='/'>HB</NavLink> */}
         <nav>
           <NavLink className="about_button" to='/about'>About</NavLink>/

@@ -1,0 +1,90 @@
+
+.bannertext {
+  border: 3px white solid;
+  font-family: 'Abril Fatface';
+  font-size: 3vw;
+  letter-spacing: 3px;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.bannertext2 {
+  font-family: 'IBM Plex Sans Condensed';
+  font-size: 4vw;
+  letter-spacing: 2px;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.bannertext3 {
+  border: 3px black solid;
+  font-family: 'Abril Fatface';
+  font-size: 3vw;
+  letter-spacing: 3px;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.jeans {
+  color: white;
+  position: relative;
+  text-align: center;
+}
+
+.jeansimage {
+  margin-top: 40px;
+  width: 60vw;
+}
+
+.mensacc {
+  color: white;
+  position: relative;
+  text-align: center;
+}
+
+.mensaccessories {
+  margin-top: 40px;
+  width: 60vw;
+}
+
+.mensspring {
+  margin-top: 40px;
+  width: 60vw;
+}
+
+.spring {
+  color: black;
+  position: relative;
+  text-align: center;
+}
+
+.summer {
+  color: white;
+  position: relative;
+  text-align: center;
+}
+
+.summerimage {
+  margin-top: 50px;
+  width: 60vw;
+}
+
+.womensacc {
+  color: black;
+  position: relative;
+  text-align: center;
+}
+
+.womensaccessories {
+  margin-bottom: 80px;
+  margin-top: 40px;
+  width: 60vw;
+}
