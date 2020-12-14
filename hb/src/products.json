@@ -13,5 +13,50 @@
     "rating": "4",
     "color": "Honeycomb",
     "size": "M"
+  },
+  {
+    "id": "2",
+    "name": "L/S Crew Curve-Hem",
+    "description": "A long sleeve version of our best selling crew curve-hem. The elevated bottom cut reduces bunching around the waist for a natural fit.",
+    "images": [
+      "https://cdn.shopify.com/s/files/1/1368/3463/products/SAGE-LS-CURVE-HEM.jpg?v=1602012824",
+      "https://cdn.shopify.com/s/files/1/1368/3463/products/sage1077.jpg?v=1604525630",
+      "https://cdn.shopify.com/s/files/1/1368/3463/products/sage1085.jpg?v=1602012846",
+      "https://cdn.shopify.com/s/files/1/1368/3463/products/sage1092.jpg?v=1602012846"
+    ],
+    "price": "$64",
+    "rating": "4",
+    "color": "Sage",
+    "size": "L"
+  },
+  {
+    "id": "3",
+    "name": "Hoodie Classic",
+    "description": "This lightweight sweatshirt is stretchy when you need it but retains fit and shape over time. Buttery soft in all the right places with an athletic fit. Features low profile pockets, crossover collar, and a double-walled hood.",
+    "images": [
+      "https://cdn.shopify.com/s/files/1/1368/3463/products/FJORD-HOODIE-CLASSIC.jpg?v=1603497316",
+      "https://cdn.shopify.com/s/files/1/1368/3463/products/FJORDHOODIECLASSIC2.jpg?v=1603497335",
+      "https://cdn.shopify.com/s/files/1/1368/3463/products/FJORDHOODIECLASSIC5.jpg?v=1603497324",
+      "https://cdn.shopify.com/s/files/1/1368/3463/products/FJORDHOODIECLASSIC1.jpg?v=1603497330"
+    ],
+    "price": "$118",
+    "rating": "4.5",
+    "color": "Fjord",
+    "size": "M"
+  },
+  {
+    "id": "4",
+    "name": "Polo Curve-Hem",
+    "description": "The PYCA™ Polo features a two-button collar and a Curve-Hem bottom Cut. Designed in LA with our custom engineered PYCA™ Pro fabric this shirt keeps you fitted for the daily work grind, a happy hour escape, and everything in-between.",
+    "images": [
+      "https://cdn.shopify.com/s/files/1/1368/3463/products/DEEP-AMBER-POLO-CURVE-HEM.jpg?v=1601999142",
+      "https://cdn.shopify.com/s/files/1/1368/3463/products/deep-amber0853.jpg?v=1602204908",
+      "https://cdn.shopify.com/s/files/1/1368/3463/products/deep-amber0861.jpg?v=1601999168",
+      "https://cdn.shopify.com/s/files/1/1368/3463/products/deep-amber0870.jpg?v=1601999168"
+    ],
+    "price": "$72",
+    "rating": "3.5",
+    "color": "Deep Amber",
+    "size": "L"
   }
 ]

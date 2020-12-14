@@ -1,5 +1,22 @@
 
+.item-image {
+  border: 1px solid black;
+  width: 15%;
+  margin: 15px 0 5px 10px;
+}
 
+.item-price {
+  font-size: 1vw;
+  font-family: 'DM Serif Display';
+  font-weight: 800;
+  margin: 0 0 10px 10px;
+}
+
+.item-title {
+  font-size: 1vw;
+  font-family: 'Le Jeune Deck';
+  margin: 0 0 0 10px;
+}
 
 .navbutton {
   border: 1px solid white;
@@ -24,6 +41,12 @@
   margin-left: 50px;
   padding: 10px 20px;
 }
+
+/* .shop-container {
+  display: block;
+  text-align: center;
+} */
+
 
 .slider {
   margin-left: 50px;

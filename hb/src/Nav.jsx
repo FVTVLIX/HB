@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import './Nav.css'
 import { Link, NavLink, Switch, Route } from 'react-router-dom'
 import logo from './images/HB Logo.png'
-import Shop from './Shop'
 
 
 export default class Nav extends Component {
