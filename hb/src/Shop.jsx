@@ -26,7 +26,6 @@ import image11 from './images/img11.jpg'
 import image12 from './images/img12.jpg'
 import Nav from './Nav'
 import './Shop.css'
-
 const data = require('./products.json')
 
 
@@ -57,7 +56,7 @@ export default class Shop extends Component {
             naturalSlideWidth={100}
             visibleSlides={3}
             totalSlides={12}>
-            
+
             <Slider>
               <Slide index={0}><img className="slider_image" src={image1} alt={image1} /></Slide>
               <Slide index={1}><img className="slider_image" src={image2} alt={image2} /></Slide>
@@ -86,11 +85,14 @@ export default class Shop extends Component {
             <>
               <div className='shop-container'>
                 <div key={item.id} className='item-box'>
-                  <img className='item-image' alt='shop item' src={item.images[0]} />
-                  <h1 className='item-title'>{item.name}</h1>
-                  <h2 className='item-price'>{item.price}</h2>
-                  </div>
-            </div>
+                  <Link
+                  to={`/shop/${item.id}`}>
+                    <img className='item-image' alt='shop item' src={item.images[0]} />
+                    <h1 className='item-title'>{item.name}</h1>
+                    <h2 className='item-price'>{item.price}</h2>
+                  </Link>
+                </div>
+              </div>
             </>
           )
         })}

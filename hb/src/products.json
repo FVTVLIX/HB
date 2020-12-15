@@ -58,5 +58,20 @@
     "rating": "3.5",
     "color": "Deep Amber",
     "size": "L"
+  },
+  {
+    "id": "5",
+    "name": "L/S Crew Elongated",
+    "description": "Crafted with the modern man in mind, this CUT demonstrates true class with an urban feel.",
+    "images": [
+      "https://cdn.shopify.com/s/files/1/1368/3463/products/golden-harvest-ls-crew-elognated-3x4-Transparent-_1.jpg?v=1596579751",
+      "https://cdn.shopify.com/s/files/1/1368/3463/products/golden-harvest0720.jpg?v=1600461965",
+      "https://cdn.shopify.com/s/files/1/1368/3463/products/golden-harvest0729.jpg?v=1600461957",
+      "https://cdn.shopify.com/s/files/1/1368/3463/products/golden-harvest0736.jpg?v=1600461959"
+    ],
+    "price": "$64",
+    "rating": "4.5",
+    "color": "Golden Harvest",
+    "size": "S"
   }
 ]
