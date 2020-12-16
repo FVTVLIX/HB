@@ -1,0 +1,63 @@
+
+.add-cart {
+  font-family: 'Playfair Display';
+  height: 50px;
+  text-transform: uppercase;
+  width: 150px;
+}
+
+.add-gift {
+  border: 1px solid white;
+  color: white;
+  background-color: rgb(31, 41, 44);
+  font-family: 'Playfair Display';
+  height: 50px;
+  text-transform: uppercase;
+  width: 150px;
+}
+
+.item-container1 {
+  margin: 50px 0 0 30px;
+}
+
+.item-container2 {
+  margin: 70px 0 0 0;
+}
+.item-container3 {
+  margin: 10px 100px 50px 0;
+}
+
+.item_image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+.main-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.shopitem-description {
+  font-size: 1vw;
+  font-family: 'QuickSand';
+  width: 25vw;
+}
+
+.shopitem-name {
+  font-family: 'JetBrains Mono';
+  font-size: 2.5vw;
+  letter-spacing: 2.5px;
+  margin: 0 0 30px 0;
+  text-transform: uppercase;
+}
+
+.shopitem-price {
+  border: 1px solid white;
+  font-family: 'IBM Plex Sans Condensed';
+  padding: 10px 20px;
+  width: 30px;
+}
+

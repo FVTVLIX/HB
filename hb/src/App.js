@@ -9,6 +9,10 @@ import { Route, Switch, Redirect } from 'react-router-dom'
 
 import 'pure-react-carousel/dist/react-carousel.es.css';
 import homeimage from './images/NYCSplashLogoPageNew.png'
+import ShopItem from './ShopItem';
+
+const data = require('./products.json')
+
 
 
 
@@ -23,6 +27,8 @@ class App extends Component {
 
   render() {
 
+    const items = data
+
     return (
       <div className="App">
 
@@ -33,7 +39,11 @@ class App extends Component {
           </Route>
 
           <Route exact path="/shop">
-            <Shop />
+            <Shop items={items} />
+          </Route>
+
+          <Route exact path='/shop/:index'>
+            <ShopItem items={items} />
           </Route>
 
           <Route exact path="/about">

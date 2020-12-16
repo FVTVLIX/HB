@@ -26,7 +26,7 @@ import image11 from './images/img11.jpg'
 import image12 from './images/img12.jpg'
 import Nav from './Nav'
 import './Shop.css'
-const data = require('./products.json')
+// const data = require('./products.json')
 
 
 
@@ -42,7 +42,7 @@ export default class Shop extends Component {
 
   render() {
 
-    const item = data
+    // const item = data
     return (
       <div>
         <Link>
@@ -80,17 +80,19 @@ export default class Shop extends Component {
           </CarouselProvider>
         </Link>
 
-        {item.map(item => {
+        {this.props.items.map((item, index) => {
           return (
             <>
               <div className='shop-container'>
                 <div key={item.id} className='item-box'>
                   <Link
-                  to={`/shop/${item.id}`}>
+                  exact to={`/shop/${index}`}>
                     <img className='item-image' alt='shop item' src={item.images[0]} />
                     <h1 className='item-title'>{item.name}</h1>
                     <h2 className='item-price'>{item.price}</h2>
                   </Link>
+
+
                 </div>
               </div>
             </>
