@@ -45,7 +45,6 @@ export default class Shop extends Component {
     // const item = data
     return (
       <div>
-        <Link>
 
           <Nav />
 
@@ -78,26 +77,30 @@ export default class Shop extends Component {
             <ButtonNext className='navbutton'>Next</ButtonNext>
             <ButtonLast className='navbutton'>Last</ButtonLast>
           </CarouselProvider>
-        </Link>
-
-        {this.props.items.map((item, index) => {
-          return (
-            <>
-              <div className='shop-container'>
-                <div key={item.id} className='item-box'>
-                  <Link
-                  exact to={`/shop/${index}`}>
-                    <img className='item-image' alt='shop item' src={item.images[0]} />
-                    <h1 className='item-title'>{item.name}</h1>
-                    <h2 className='item-price'>{item.price}</h2>
-                  </Link>
 
 
+        <div className='shop-container'>
+
+          {this.props.items.map((item, index) => {
+            return (
+              <>
+                <div className='container'>
+                  <div key={item.id} className='item-box'>
+                    <Link
+                      className="item-link"
+                      exact to={`/shop/${index}`}>
+                      <img className='item-image' alt='shop item' src={item.images[0]} />
+                      <h1 className='item-title'>{item.name}</h1>
+                      <h2 className='item-price'>{item.price}</h2>
+                    </Link>
+
+
+                  </div>
                 </div>
-              </div>
-            </>
-          )
-        })}
+              </>
+            )
+          })}
+        </div>
       </div>
     )
   }

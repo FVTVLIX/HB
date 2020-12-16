@@ -30,8 +30,8 @@ class ShopItem extends Component {
         <div className='main-container'>
           <div className='item-container1'>
             <h1 className='shopitem-name'>{this.props.items[index].name}</h1>
-            <button type='button' className='add-cart'>Add To Cart</button>
-            <button type='button' className='add-gift'>Buy as Gift</button>
+            <button type='button' className='add-cart'>+Cart</button>
+            <button type='button' className='add-gift'>+Wishlist</button>
           </div>
           <div className='item-container2'>
             <h2 className='shopitem-description'>{this.props.items[index].description}</h2>

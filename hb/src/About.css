@@ -32,8 +32,7 @@ p {
 }
 
 .storeimage {
-  display: block;
-  height: 50vw;
-  margin: auto;
-  width: 100vw;
+  /* background-position: inherit; */
+  height: auto;
+  max-width: 100%;
 }

@@ -73,5 +73,80 @@
     "rating": "4.5",
     "color": "Golden Harvest",
     "size": "S"
+  },
+  {
+    "id": "6",
+    "name": "L/S Crew Curve-Hem",
+    "description": "A long sleeve version of our best selling crew curve-hem. The elevated bottom cut reduces bunching around the waist for a natural fit.",
+    "images": [
+      "https://cdn.shopify.com/s/files/1/1368/3463/products/MOUNTAIN-MIST-LS-CURVE-HEM.jpg?v=1599244265",
+      "https://cdn.shopify.com/s/files/1/1368/3463/products/mountain_mist0521.jpg?v=1599244295",
+      "https://cdn.shopify.com/s/files/1/1368/3463/products/mountain-mist0746.jpg?v=1599244289",
+      "https://cdn.shopify.com/s/files/1/1368/3463/products/mountain-mist0750.jpg?v=1599244288"
+    ],
+    "price": "$64",
+    "rating": "3",
+    "color": "Mountain Mist",
+    "size": "L"
+  },
+  {
+    "id": "7",
+    "name": "L/S Henley Split-Hem",
+    "description": "The Split-Hem delivers dynamic functionality. This casual yet stylish shape expresses a more distinctive look. Providing serious comfort without compromising appearance.",
+    "images": [
+      "https://cdn.shopify.com/s/files/1/1368/3463/products/LS-HENLEY-SPLIT-HEM-BLACK.jpg?v=1576776881",
+      "https://cdn.shopify.com/s/files/1/1368/3463/products/CUTS_2019-12-16_On_Model_Video_0424.jpg?v=1594140595",
+      "https://cdn.shopify.com/s/files/1/1368/3463/products/CUTS_2019-12-16_On_Model_Video_0442.jpg?v=1576776889",
+      "https://cdn.shopify.com/s/files/1/1368/3463/products/CUTS_2019-12-16_On_Model_Video_0442.jpg?v=1576776889"
+    ],
+    "price": "$68",
+    "rating": "3",
+    "color": "Black",
+    "size": "L"
+  },
+  {
+    "id": "8",
+    "name": "V-Neck Curve-Hem",
+    "description": "This v-neck has our signature Curve-Hem bottom Cut designed with a tailored fit. This elevated classic Curve-Hem eliminates bunching around the waist designed for everyday wear.",
+    "images": [
+      "https://cdn.shopify.com/s/files/1/1368/3463/products/FJORD-V-NECK-CURVE.jpg?v=1603497435",
+      "https://cdn.shopify.com/s/files/1/1368/3463/products/FJORDV-NECKCURVE2.jpg?v=1603497443",
+      "https://cdn.shopify.com/s/files/1/1368/3463/products/FJORDV-NECKCURVE3.jpg?v=1603497435",
+      "https://cdn.shopify.com/s/files/1/1368/3463/products/FJORDV-NECKCURVE1.jpg?v=1603497435"
+    ],
+    "price": "$48",
+    "rating": "2",
+    "color": "Fjord",
+    "size": "XL"
+  },
+  {
+    "id": "9",
+    "name": "Pocket Crew Elongated",
+    "description": "The Pocket Crew has a slightly more relaxed fit but still the same quality you expect. Our raw edge pocket adds the small flare you need to diversify your closet.",
+    "images": [
+      "https://cdn.shopify.com/s/files/1/1368/3463/products/OPTIC_WHITE-ELONGATED-LONG-POCKET-14511.jpg?v=1594396358",
+      "https://cdn.shopify.com/s/files/1/1368/3463/products/OPTICWHITE-11736.jpg?v=1594396358",
+      "https://cdn.shopify.com/s/files/1/1368/3463/products/OPTICWHITE-11751.jpg?v=1594396358",
+      "https://cdn.shopify.com/s/files/1/1368/3463/products/OPTICWHITE-11755.jpg?v=1594396358"
+    ],
+    "price": "$50",
+    "rating": "2",
+    "color": "White",
+    "size": "M"
+  },
+  {
+    "id": "10",
+    "name": "Black 7-Panel Woven Hat",
+    "description": "Our sleek 7-Panel hat features a side woven label detail. The fabric combines cool/dry properties and UPF50 protection, keeping you comfortable throughout any activity. This will quickly become your go-to. All sales final.",
+    "images": [
+      "https://cdn.shopify.com/s/files/1/1368/3463/products/Black-7-Panel-Hat-Ecomm.jpg?v=1599100619",
+      "https://cdn.shopify.com/s/files/1/1368/3463/products/HAT-BACK-7-Ecomm.jpg?v=1600206802",
+      "https://cdn.shopify.com/s/files/1/1368/3463/products/v28295.jpg?v=1600206802",
+      "https://cdn.shopify.com/s/files/1/1368/3463/products/v28302.jpg?v=1600206802"
+    ],
+    "price": "$35",
+    "rating": "4",
+    "color": "Black",
+    "size": "One Size"
   }
 ]

@@ -1,11 +1,23 @@
+.item-box {
+  margin: 20px;
+  /* display: flex; */
+  /* justify-content: center; */
+  
+}
 
 .item-image {
   border: 1px solid black;
-  width: 15%;
+  width: 15vw;
   margin: 15px 0 5px 10px;
 }
 
+.item-link {
+  /* display: flex; */
+  width: 200px;
+}
+
 .item-price {
+  color: white;
   font-size: 1vw;
   font-family: 'DM Serif Display';
   font-weight: 800;
@@ -13,6 +25,7 @@
 }
 
 .item-title {
+  color: white;
   font-size: 1vw;
   font-family: 'Le Jeune Deck';
   margin: 0 0 0 10px;
@@ -42,11 +55,12 @@
   padding: 10px 20px;
 }
 
-/* .shop-container {
-  display: block;
-  text-align: center;
-} */
-
+.shop-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px 0 0px 0px;
+  justify-content: center;
+}
 
 .slider {
   margin-left: 50px;
